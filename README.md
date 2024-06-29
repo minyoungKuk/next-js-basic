@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 내배캠 Next.js 강의
 
-## Getting Started
+리액트를 베이스로 만들어진 프레임워크
 
-First, run the development server:
+## 개요
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 라이브러리 / 프레임워크
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### 프레임워크: 개발자가 기능 구현에만 집중 / 그 외에 것들을 모두 지원하는 _기술의 조합_
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### 라이브러리 : 공통 기능의 *모듈화*가 이루어진 프로그램의 집합
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`제어역전(Ioc)`
 
-## Learn More
+### 기능
 
-To learn more about Next.js, take a look at the following resources:
+1. 다양한 렌더링 기법: CSR, SSR, SSG, ISR
+2. 라우팅
+3. route handler: _백엔드_ 기능 [한계가 존재: WebSocket, WebRTC등 구현에 한계 / 백,프론트가 함께 배포되어야만 함]
+4. 스타일링: CSS, Sass, CSS-in-JS
+5. 최적화, 번들링: 코드 스플리팅, 이미지 최적화, 췝팩 설정 등..
+6. Data Fetching
+7. Easy 배포
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> TTV(Time To View): 사용자가 최초로 View를 볼 수 있을 때 까지의 시간
+> TTI(Time To Interaction): 사용자가 최조로 사이트와 소통할 수 있는 시간
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 앱 라우터 vs 페이지 라우터
 
-## Deploy on Vercel
+## routing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## rendering
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Route Handlers
